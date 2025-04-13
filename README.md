@@ -150,4 +150,9 @@ FROM cte
 INNER JOIN orders ON cte.Customer_code = orders.Customer_code AND cte.acq_date = orders.placed_at
 WHERE orders.Promo_code_Name IS NULL;
 ```
+### Conclusion
 
+The project demonstrated the power of SQL in uncovering meaningful patterns from raw transactional data. By focusing on customer behavior and promo effectiveness, the findings provided critical input to product, growth, and CRM teams — enabling them to craft more informed strategies around acquisition, retention, and personalization.
+
+### Author - Sujal Bansal
+This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
